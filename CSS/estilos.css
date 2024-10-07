@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(197, 103, 15);
+}
+p{
+    background-color: rgb(208, 18, 18);
+    color: white;
+}
+div {
+    background-color: rgba(0,0,0,0.9);
+    color: hsl(0, 92%, 47%);
+}
+.caja1{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(208, 18, 18);
+    color : rgb(255,255,255);
+}
+.caja2{
+    width: 150px;
+    height: 150px;
+    background-color: #087d18d9;
+    color : #ffffff;
+}
+.caja3{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(59, 91%, 45%);
+    color : hsl(0, 0%, 100%);
+}
