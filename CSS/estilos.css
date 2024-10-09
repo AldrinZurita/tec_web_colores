@@ -6,6 +6,10 @@ p{
     background-color: rgb(208, 18, 18);
     color: white;
 }
+p::first-line{
+    color: rgb(197, 103, 15);
+}
+
 div {
     background-color: rgba(0,0,0,0.9);
     color: hsl(0, 92%, 47%);
@@ -37,7 +41,7 @@ div {
     color:rgb(255,255,255);
 }
 
-a[title]{
+a[title]:hover{
     color: rgb(139, 15, 139);
 }
 button{
@@ -49,4 +53,21 @@ button:hover{
 }
 input:disabled{
     border: 2px solid rgb(255,0,0);
+}
+.fooo, .bar{
+    color: green;
+}
+
+.abuelo div{
+    color:#ffffff;
+}
+
+.hijo1~div{
+    color:green;
+}
+#outer a{
+    background-color: red;
+}
+#outer #inner a{
+    background-color: green;
 }
